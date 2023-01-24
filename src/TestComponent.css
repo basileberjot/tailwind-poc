@@ -1,0 +1,13 @@
+.MuiButtonBase-root.MuiButton-textPrimary {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1.25px;
+
+  /* Tried to use this without success */
+  /* background-color: var(--tailwind-custom-color-1); */
+  /*  */
+
+  background: red;
+  color: white;
+  border: solid 3px black;
+}

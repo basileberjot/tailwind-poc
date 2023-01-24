@@ -1,15 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { baseTheme } from "@zeals-co-ltd/washi-styles";
+import { MUIThemeProvider } from "@zeals-co-ltd/washi-components";
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <MUIThemeProvider theme={baseTheme}>
+      <App />
+    </MUIThemeProvider>
   </React.StrictMode>
 );
 

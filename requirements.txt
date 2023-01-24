@@ -1,0 +1,38 @@
+// Check whether tailwind can be used with MUI.
+// Check what is the added footprint to the overall bundle size when adding tailwind to package.json.
+// What are the costs (time) for synching between Washi’s theme file (MUI) and Tailwind’s CSS file (For example: damien-monni/material-ui-tailwind).
+
+// Take a work day to upgrade a real-world todo app (angelguzmaning/ts-redux-react-realworld-example-app) by using MUI
+// and tailwind and report back how was the overall experience. Did Tailwind saved on costs or added costs to the development process.
+
+//  --
+
+// One of the requirements of the ticket were What are the costs (time) for synching between Washi's theme file (MUI) and Tailwind's CSS file .
+// I guess it wasn't quite understandable as I hoped it too be.
+// The goal was to try and see if you can have the MUI theme file work along the Tailwind theme file or do they collide.
+// Does it take a lot of work to keep them sync.
+
+//  --
+
+// Create a single page application with a few examples that showcase how MUI elements can be styled using tailwind classes.
+// The application should achieve the same styling as Washi.
+// Add a use case where you felt that it was easier to style the component with tailwind then with MUI.
+
+//  --
+
+// My notes
+// Use tailwind classes for containers (responsive) (how is it better than regular flexbox or CSS grid)
+// Declare some styles in Tailwind theme (customize Tailwind) and use it with MUI Theme (base theme washi)
+
+// Use Washi theme = MUI styles overrides (input, autocomplete).
+// Use Washi exports (colors, shadows)
+// Use Washi component (MultiSelect)
+
+// Use MUI component (with Washi override baseTheme) -> Autocomplete and button
+// Style it with Tailwind (refer to previous project) -> OR CSS while using existing Washi styles
+
+// OPTIONAL: Compare sizes/compilation time w/ CSS in JS vs CSS
+
+// -- 
+
+// 

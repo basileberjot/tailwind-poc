@@ -1,0 +1,15 @@
+// Tailwind classes can be applied to a MUI component but can't override MUI's styles.
+
+// We can use MUI Base components and style them with Tailwind, but the selection of components is limited and need to be styled from scratch
+// I'm also not sure the slotProps covers all the parts of the component we would want to style
+
+// But we can use regular CSS targetting the MUI class (eg: .MuiButtonBase-root) and style that way
+// I don't remember why we chose to use CSS in JS to style MUI components on Jupiter and Washi with makeStyles/createStyles or styled API
+
+// Maybe we can have a combination of Tailwind for its convenience while being lightweight, and regular CSS to style MUI components
+
+/*
+/* NOTE IF WE NEED TO RE-USE WASHI
+*/
+// Also, we could use all the CSS in JS we wrote in Washi
+// We would need to use conditional classNames when props were being used in styled API (eg: hasValue in MultipleSelect)
